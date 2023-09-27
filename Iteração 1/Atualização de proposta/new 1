@@ -1,0 +1,73 @@
+Classe SeriarCandidatosUI:
+
+---------------------------------------
+Classe SeriarCandidatosController:
+
+getAnuncioByColaborador()
+getListCandidaturas()
+classificarCandidato(candidato, decisao)
+getListColaboradores()
+adicionarParticipante(participante, ativo)
+addInfoAnuncio(data, hora)
+novaSeriacao()
+registaSeriacao()
+
+---------------------------------------
+Classe Seriacao:
+String candidato
+
+---------------------------------------
+Classe RegistoSeriacao:
+
+adicionarParticipante(participante, ativo)
+addInfoAnuncio(data, hora)
+novaSeriacao()
+create()
+validarSeriacao(novaseriacao)
+registaSeriacao(novaseriacao)
+validaSeriacao(novaseriacao)
+addSeriacao(novaseriacao)
+
+---------------------------------------
+Classe AplicacaoPOT:
+
+getInstance()
+getSessaoAtual()
+
+---------------------------------------
+Classe SessaoUtilizador:
+
+getEmailUtilizadaor()
+
+---------------------------------------
+Classe Plataforma:
+
+getRegistoOrganizacao()
+getRegistoSeriacao()
+
+----------------------------------------
+Classe Candidatura 
+
+classificarCandidato(candidato, decisao)
+createVencedor(candidato, decisao)
+validarVencedor(candidato, decisao)
+
+----------------------------------------
+Classe Organizacao
+
+getListColaboradores (MUDAR PARA getListaColaborador)
+
+----------------------------------------
+Classe RegistoOrganizacao (MUDAR PARA RegistoOrganizacoes)
+
+getRegistoOrganizacaoByEmail(email)
+
+----------------------------------------
+Classe RegistoAnuncios
+
+getListAnuncios(org)
+
+----------------------------------------
+Classe Anuncio
+
+getListCandidaturas()
